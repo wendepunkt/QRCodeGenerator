@@ -2,7 +2,9 @@
 
 This python script takes an excel sheet with id, name, and phone number and generates
 a QR code for each tuple. See the example below:
+
 ![](images/sample.png)
+
 Scanning the QR code opens a contact card with their first name and number. 
 
 ## Installation
