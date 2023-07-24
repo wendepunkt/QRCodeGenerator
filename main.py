@@ -24,7 +24,7 @@ name = ""
 phone = ""
 
 # read_excel export.xlsx
-df = pd.read_excel('export.xlsx')
+df = pd.read_csv('export.csv')
 ids = df['id'].tolist()
 names = df['first_name'].tolist()
 numbers = df['phone'].tolist()

@@ -2,21 +2,22 @@
 
 This python script takes an excel sheet with id, name, and phone number and generates
 a QR code for each tuple. See the example below:
-
 ![](images/sample.png)
-
 Scanning the QR code opens a contact card with their first name and number. 
 
 ## Installation
 
 Mac: 
 
-Please download the entire folder from Github.
+1. Please download the entire folder from Github.
+![](images/instruction1.png)
 
-Then open a new Terminal at the folder.
 
-In the terminal copy the following text and press enter.
+2. Then open a new Terminal at the folder.
+![](images/instruction2.png)
 
+
+3. In the terminal copy the following text and press enter.
 ```bash
 pip install -r requirements.txt
 
@@ -27,11 +28,14 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-First download the User Export from Looker Studio.
+1. First download the User Export from Looker Studio.
+![](images/instruction3.png)
 
-Rename this file as export.csv and store it in the QRCodeGenerator folder.
 
-To run the script enter the following code in the terminal and the QR codes 
+2. Rename this file as export.csv and store it in the QRCodeGenerator folder.
+![](images/instruction4.png)
+
+To run the script enter the following code in the previously opened terminal and the QR codes 
 will be generated.
 
 ```bash
