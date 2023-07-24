@@ -30,7 +30,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-1. First download the User Export from Looker Studio.
+1. First download the User Export from Looker Studio. Select as many rows as needed and delete others. 
 ![](images/instruction3.png)
 
 
