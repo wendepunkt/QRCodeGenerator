@@ -9,7 +9,7 @@ Scanning the QR code opens a contact card with their first name and number.
 
 ## Installation
 
-Mac: 
+Mac (requires pip and python): 
 
 1. Please download the entire folder from Github.
 ![](images/instruction1.png)
@@ -41,11 +41,11 @@ To run the script enter the following code in the previously opened terminal and
 will be generated.
 
 ```bash
-python myscript.py
+python main.py
 
 # or 
 
-python3 myscript.py
+python3 main.py
 ```
 
 ## Contributing
